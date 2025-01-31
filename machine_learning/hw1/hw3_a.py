@@ -34,3 +34,7 @@ def run_forecasting_naive(file, prediction_horizon):
     
     return rmse
 
+file = 'hw1_q3_forecasting data.csv'
+prediction_horizon=24
+naive_baseline_rmse =  run_forecasting_naive(file, prediction_horizon)
+print(naive_baseline_rmse)
